@@ -11,6 +11,6 @@ My interests lie in the concatenation of Machine learning, computational biology
 
 Contact me on lior.kirsch [at] gmail.com
 
-Visit my blog at [http://lior.kirsch.xyz/](http://lior.kirsch.xyz/)
+Visit my blog at [http://liorkirsch.github.io/](http://liorkirsch.github.io/)
 
 See my code at [https://github.com/liorkirsch](https://github.com/liorkirsch)

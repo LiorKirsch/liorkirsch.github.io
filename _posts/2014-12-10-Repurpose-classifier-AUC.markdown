@@ -39,7 +39,7 @@ There is also another key difference between AUC and accuracy and that is the nu
 
 This is why when I think of AUC, I think of it more as ranking metric than a classification metric. Basicly, make sure that you rank the relevant stuff higher than the non-relevant. 
 
-$$ AUC = \frac{1}{|N||P|} \sum\limits_{p \in P \; n \in N} 1_{w^Tx^p > w^Tx^n} = \frac{1}{|N||P|} \sum\limits_{p \in P \; n \in N} 1_{(w^Tx^p - w^Tx^n) \geq 0}$$
+$$ AUC = \frac{1}{|N||P|} \sum\limits_{p \in P \; n \in N} 1_{w^Tx^p > w^Tx^n} = \frac{1}{|N||P|} \sum\limits_{p \in P \; n \in N} 1_{(w^Tx^p - w^Tx^n) \geq 0} $$
 
 Here $$1_{w^Tx^p > w^Tx^n}$$ is an indicator function that recieves 1 if the ranking condition is true and 0 if false.
 
@@ -98,5 +98,8 @@ What if we are in a truly online framework where we receive one new sample at ti
 
 Check out the [code][jekyll] for this on github.
 
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
 [vw]: http://hunch.net/~vw/
 [liblinear]: http://www.csie.ntu.edu.tw/~cjlin/liblinear/

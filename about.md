@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-### Lior Kirsch
+### Lior Kirsch 
+![8 bit me](/assets/8bitme.png)
 
 Phd Student at the Gonda Brain Research center in Bar-Ilan university
-My interests lie in the concatenation of Machine learning, computational biology and neuroscience.
+My interests lie in the intersection of Machine learning, Computational Biology and Neuroscience.
 
 Contact me on lior.kirsch [at] gmail.com
 

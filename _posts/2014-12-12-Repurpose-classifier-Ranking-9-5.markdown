@@ -3,7 +3,6 @@ layout: post
 title:  "Re-purpose your linear classifier - Ranking 9 to 5"
 date:   2014-12-12 13:49:34
 categories: ranking, classification, svm, machine learning
-keywords: ranking, classification, svm, machine learning
 comments: True
 permalink: repurpose-classifier-ranking-9-5
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="assets/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <div class="post">
 

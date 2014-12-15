@@ -3,7 +3,6 @@ layout: post
 title:  "Re-purpose your linear classifier - AUC"
 date:   2014-12-10 10:00:00
 categories: AUC, ranking, classification, svm, machine learning
-keywords: AUC, ranking, classification, svm, machine learning
 comments: True
 permalink: repurpose-classifier-AUC
 description:"How to maximize the AUC with any linear classifier"

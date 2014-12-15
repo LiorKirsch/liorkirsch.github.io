@@ -6,7 +6,6 @@ categories: ranking, classification, svm, machine learning
 keywords: ranking, classification, svm, machine learning
 comments: True
 permalink: repurpose-classifier-ranking-9-5
-description:"How to turn any linear classifier into a ranking machine in just a few easy steps"
 ---
 Lets say that we are in the movies recommandation business and instead of just providing yes and no recommendation we want to provide a 5 values scoring system: 
 [“don’t bother”, “bad but watchable”, “nice”, “very nice”, “Shawshank Redemption” ].

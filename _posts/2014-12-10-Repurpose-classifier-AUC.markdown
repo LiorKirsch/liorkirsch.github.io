@@ -5,8 +5,7 @@ date:   2014-12-10 10:00:00
 categories: AUC, ranking, classification, svm, machine learning
 comments: True
 permalink: repurpose-classifier-AUC
-description:"How to maximize the AUC with any linear classifier"
-
+headmeta:"How to maximize the AUC with any linear classifier"
 ---
 AUC - Area under the curve, usually refers to the area under the ROC curves. It is common practice in machine learning and in statistics to plot the ROC curves and from there gain information about the behaviour of the classifier.
 I would like to talk about AUC but not in the classical context of ROC curves. Another less known interpretation, is that **AUC is the probability that a positive sample will receive a score higher than a negative sample**.

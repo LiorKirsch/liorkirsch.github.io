@@ -96,8 +96,14 @@ One more thing:
 What if we are in a truly online framework where we receive one new sample at time t. First, sometimes when people say online what they actually refer to is “fast classifier so I can run it on big data”. lets assume that this is not the case and you are actually in an online scenario: You receive a sample make a prediction then someone reveals the label and you can correct your classifier. Then, to maximize the AUC what you can do is to save a pool of positive samples and a pool of negative samples. Lets say that at time t a new sample arrives. You make your prediction and then you are informed that this sample is positive. What you do is you pick a negative sample at random from the negative-pool and update your classifier using as mentioned above using a sample of the sort $$x^p - x^n$$.
 
 
-Check out the [code][jekyll] for this on github.
+Check out the [code][auc-github] for this on github.
 
+References:
+
+* [SVMrank - Optimizing Search Engines using Clickthrough Data, Joachims 2002][svmrank]
+
+[svmrank]: http://www.cs.cornell.edu/People/tj/publications/joachims_02c.pdf
+[auc-github]:  https://github.com/LiorKirsch/classifier-repurposing/tree/master/auc%20and%20ranking
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

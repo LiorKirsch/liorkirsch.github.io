@@ -99,8 +99,9 @@ We can also add a few more sample that will provide penalties for breaking this 
 Samples of the sort $$ x_{0-1 < 1-2} =[0,...,0,     -1, 1, 0, 0] $$
 
 
-Check out the [code][jekyll] for this on github.
+Check out the [code][close-set-rank-github] for this on github.
 
+[close-set-rank-github]:  https://github.com/LiorKirsch/classifier-repurposing/tree/master/close%20set%20ranking
 [jekyll]:      http://jekyllrb.com
 [vw]: http://hunch.net/~vw/
 [liblinear]: http://www.csie.ntu.edu.tw/~cjlin/liblinear/

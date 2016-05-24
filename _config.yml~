@@ -1,9 +1,26 @@
+# Site settings
+title: Lior Kirsch's Blog
+email: lior.kirsch [at] gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Machine learning, neuroscience and computational biology.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://liorkirsch.github.io" # the base hostname & protocol for your site
+
 name: Lior Kirsch
 description: Personal page for Jekyll
 paginate: 10
-baseurl: '/lior'
+baseurl: '/'
 port: 4444
 title: Lior Kirsch Webpage
 email: lior.kirsch [at] gmail.com
+github_username:  liorkirsch
+
 # Build settings
 markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+
+
+
+

@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://liorkirsch.github.io" # the base hostname & protocol for your site
 
 name: Lior Kirsch
-description: Personal page for Jekyll
 paginate: 10
 baseurl: '/'
 port: 4444

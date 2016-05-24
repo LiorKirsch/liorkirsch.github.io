@@ -1,23 +1,110 @@
 ---
-layout: default
+title: Dopetrope
+layout: landing
 ---
+  
+	<body class="homepage">
+	{% include header_landing.html %}
+    {% assign research_base_url = 'research_projects.html' %}
+    {% assign other_projects_base_url = 'other_projects.html' %}
+        
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
 
-<div class="home">
+							<!-- Portfolio -->
+								<section>
+									<header class="major">
+										<h2>My Projects</h2>
+									</header>
+									<div class="row">
+										<div class="4u">
+											<section class="box">
+												<a href="{{ research_base_url }}#net_opt" class="image featured"> <img src="{{ site.baseurl }}/assets/images/flight_net.jpg" alt="" /></a>
+												<header>
+													<h3>Optimal network structure for spectral radius related phase transitions</h3>
+												</header>
+												<p>
+                                                    In several epidmic models, the largest eigenvalue of the adjcancy matrix is a proxy for phase transition. It controls whether an epidemic will spread or will it slowly die out. We propose a method to optimaly reduce weights of the edges in a network until a targeted largest eigenvalue is reached and thus stopping the spread of the epidemic.
+                                                </p>
+												<footer>
+													<a href="{{ research_base_url }}#net_opt" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+                                        <div class="4u">
+											<section class="box">
+												<a href="{{ research_base_url }}#demixing" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic05.jpg" alt="" /></a>
+												<header>
+													<h3>Multi-region demixing of brain transcriptome</h3>
+												</header>
+                                                
+                                                <p>
+                                                    Almost all measurements collect in the brain represent an uncontrolled mix of various cell types including neurons, glia and blood cells. We propose here a probabilistic approach to blindly demix brain transcriptome samples, building on variability of cell-type proportions across samples. Using this approach we inferring cell-type specific information from these mixtures is a key challenge. 
+                                                </p>
+												<footer>
+													<a href="{{ research_base_url }}#demixing" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+                                        <div class="4u">
+											<section class="box">
+												<a href="{{ research_base_url }}#develop_origin" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></a>
+												<header>
+													<h3>On expression patterns and developmental origin of human brain regions</h3>
+												</header>
+												<p>We found that almost all genes in the adult human brain bear a developmental ‘footprint’ which determines their areal expression-pattern based on the developmental ontology of brain regions, while at the same time their spatial expression pattern changes during life.</p>
+												<footer>
+													<a href="{{ research_base_url }}#develop_origin" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+									</div>
+									<div class="row">
+                                        <div class="4u">
+											<section class="box">
+												<a href="{{ research_base_url }}#cerbellar" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt="" /></a>
+												<header>
+													<h3>Localizing Genes to Cerebellar Layers by Classifying ISH Images</h3>
+												</header>
+												<p>We identify genes that are primarily expressed in specific brain layers by learning their patterns of expression in images.</p>
+												<footer>
+													<a href="{{ research_base_url }}#cerbellar" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="{{ other_projects_base_url }}#highlight" class="image featured"><img src="{{ site.baseurl }}/assets/img/highlightLogo.png" alt="" /></a>
+												<header>
+													<h3>Highlight, comment and Share any webpage</h3>
+												</header>
+												<p>A simple interface that enables anyone to highlight information on any webpage and share it</p>
+												<footer>
+													<a href="{{ other_projects_base_url }}#highlight" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="{{ other_projects_base_url }}#brain_heatmaps" class="image featured"> <img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></a>
+												<header>
+													<h3>Interactive brain heatmaps</h3>
+												</header>
+												<p>
+                                                    An easy way to visualize brain data using a <a href="http://liorkirsch.github.io/brain-heatmap-web">web interface </a>. For example, here is the expression of 
+                                                    <a href="http://liorkirsch.github.io/brain-heatmap-web/brainmapSingle.html?location=1&ontology=human_compact&spreadsheetkey=1hyxYWnd-cQLZkL4Dm-p3ykGY6RNhBc_sq_w56r0MNjU" > the gene HTR1B in the adult human brain </a> 
+                                                </p>
+												<footer>
+													<a href="{{ other_projects_base_url }}#brain_heatmaps" class="button alt">Find out more</a>
+												</footer>
+											</section>
+										</div>
+										
+									</div>
+								</section>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+						</div>
+					</div>

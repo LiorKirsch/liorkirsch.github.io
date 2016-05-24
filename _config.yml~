@@ -7,6 +7,3 @@ title: Lior Kirsch Webpage
 email: lior.kirsch [at] gmail.com
 # Build settings
 markdown: kramdown
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-

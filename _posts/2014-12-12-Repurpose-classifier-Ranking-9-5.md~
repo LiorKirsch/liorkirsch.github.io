@@ -5,6 +5,7 @@ date:   2014-12-12 13:49:34
 categories: ranking, classification, svm, machine learning
 comments: True
 permalink: repurpose-classifier-ranking-9-5
+featured: /assets/images/pic04.jpg
 ---
 Lets say that we are in the movies recommandation business and instead of just providing yes and no recommendation we want to provide a 5 values scoring system: 
 [“don’t bother”, “bad but watchable”, “nice”, “very nice”, “Shawshank Redemption” ].

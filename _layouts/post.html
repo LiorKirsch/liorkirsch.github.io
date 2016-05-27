@@ -7,6 +7,9 @@
 <html>
 	<head>
 		<title>{{ page.title }}</title>
+        <meta name="description" content="{{page.excerpt | strip_html }}" />
+		<meta name="keywords" content="{{page.categories}}" />
+        
 {% include header.html %}
 {% include google_analytics.html %}
     </head>

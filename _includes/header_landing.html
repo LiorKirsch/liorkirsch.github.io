@@ -14,8 +14,8 @@
 
                                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
 
-                                {% assign research_base_url = 'research_projects.html' %}
-                                <li {% if current[1] == 'research_projects.html' %}class='current'{% endif %}>
+                                {% assign research_base_url = 'research-projects.html' %}
+                                <li {% if current[1] == research_base_url %}class='current'{% endif %}>
                                     <a href="{{ site.baseurl }}/{{ research_base_url }}">Research Projects</a>
                                     <ul>
                                         <li><a href="{{ research_base_url }}#develop_origin">Developmental origin of brain regions</a></li>
@@ -38,7 +38,7 @@
                                     </ul>
                                 </li>
 
-                                {% assign research_base_url = 'other_projects.html' %}
+                                {% assign research_base_url = 'other-projects.html' %}
                                 <li {% if current[1] == research_base_url %}class='current'{% endif %}>
                                     <a href="{{ site.baseurl }}/{{ research_base_url }}">Other Projects</a>
                                     <ul>

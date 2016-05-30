@@ -14,9 +14,9 @@
 
                                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
 
-                                {% assign research_base_url = 'research-projects.html' %}
+                                {% assign research_base_url = '/research-projects.html' %}
                                 <li {% if current[1] == research_base_url %}class='current'{% endif %}>
-                                    <a href="{{ site.baseurl }}/{{ research_base_url }}">Research Projects</a>
+                                    <a href="{{ research_base_url }}">Research Projects</a>
                                     <ul>
                                         <li><a href="{{ research_base_url }}#develop_origin">Developmental origin of brain regions</a></li>
                                         <li><a href="{{ research_base_url }}#demixing">Multi-region demixing of brain transcriptome</a></li>
@@ -38,12 +38,12 @@
                                     </ul>
                                 </li>
 
-                                {% assign research_base_url = 'other-projects.html' %}
-                                <li {% if current[1] == research_base_url %}class='current'{% endif %}>
+                                {% assign other_base_url = 'other-projects.html' %}
+                                <li {% if current[1] == other_base_url %}class='current'{% endif %}>
                                     <a href="{{ site.baseurl }}/{{ research_base_url }}">Other Projects</a>
                                     <ul>
-                                        <li><a href="{{ research_base_url }}#highlight">Highlight and Share any webpage</a></li>
-                                        <li><a href="{{ research_base_url }}#brain_heatmaps">Interactive brain heatmaps</a></li>
+                                        <li><a href="{{ site.baseurl }}/{{ other_base_url }}#highlight">Highlight and Share any webpage</a></li>
+                                        <li><a href="{{ site.baseurl }}/{{ other_base_url }}#brain_heatmaps">Interactive brain heatmaps</a></li>
                                     </ul>
                                 </li>
 

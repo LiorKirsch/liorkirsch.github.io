@@ -13,7 +13,7 @@ We have this ordering in mind that movies that are “nice” are better than �
 
 These can also be treated as five ranks: [0, 1, 2, 3, 4] but the point is that if a movie get a 2 and another movie gets a 4 it does not mean that the movie is twice as better or that it is +2 better. It means that all the movies in rank 2 are better than those in categories 1 and 0 and are worse than the movies in 3 and 4.
 
-![Ranking samples within a closed set of ordinals](/assets/Repurpose-classifier-Ranking-9-5/Ranking 9 to 5.png)
+![Ranking samples within a closed set of ordinals](/assets/images/Repurpose-classifier-Ranking-9-5/Ranking 9 to 5.png)
 
 
 ### The short version

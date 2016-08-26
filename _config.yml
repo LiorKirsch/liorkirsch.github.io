@@ -19,8 +19,7 @@ github_username:  liorkirsch
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-gems:
-  - jekyll-sitemap
+gems: [jekyll-sitemap , jekyll-paginate]
 
 
 
